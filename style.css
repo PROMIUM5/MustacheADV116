@@ -1,0 +1,15 @@
+h3
+{
+    font-size:30px !important;
+}
+
+canvas {
+    animation-name:borderanimations;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes borderanimations{
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px cyan;}
+}
